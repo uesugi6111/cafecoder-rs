@@ -195,7 +195,7 @@ dependencies = [
  "hyper 0.14.1",
  "rand 0.8.0",
  "sqlx",
- "tokio 1.2.0",
+ "tokio 1.8.4",
 ]
 
 [[package]]
@@ -678,7 +678,7 @@ dependencies = [
  "httpdate",
  "itoa",
  "pin-project 1.0.2",
- "tokio 1.2.0",
+ "tokio 1.8.4",
  "tower-service",
  "tracing",
  "want",
@@ -1608,7 +1608,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4ce2e16b6774c671cc183e1d202386fdf9cde1e8468c1894a7f2a63eb671c4f4"
 dependencies = [
  "once_cell",
- "tokio 1.2.0",
+ "tokio 1.8.4",
  "tokio-rustls",
 ]
 
@@ -1745,9 +1745,9 @@ dependencies = [
 
 [[package]]
 name = "tokio"
-version = "1.2.0"
+version = "1.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e8190d04c665ea9e6b6a0dc45523ade572c088d2e6566244c1122671dbf4ae3a"
+checksum = "50dae83881bc9b0403dd5b44ea9deed3e939856cc8722d5be37f0d6e5c6d53dd"
 dependencies = [
  "autocfg 1.0.1",
  "bytes 1.0.0",
@@ -1781,7 +1781,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bc6844de72e57df1980054b38be3a9f4702aba4858be64dd700181a8a6d0e1b6"
 dependencies = [
  "rustls",
- "tokio 1.2.0",
+ "tokio 1.8.4",
  "webpki",
 ]
 
@@ -1793,7 +1793,7 @@ checksum = "1981ad97df782ab506a1f43bf82c967326960d278acf3bf8279809648c3ff3ea"
 dependencies = [
  "futures-core",
  "pin-project-lite 0.2.4",
- "tokio 1.2.0",
+ "tokio 1.8.4",
 ]
 
 [[package]]
